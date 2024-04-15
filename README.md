@@ -1,0 +1,2 @@
+# Magazine
+For sale
