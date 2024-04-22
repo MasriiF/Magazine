@@ -1,0 +1,15 @@
+class Bank {
+  constructor() {
+    this.accounts = [];
+  }
+
+  createAccount(owner, initialBalance) {
+    const account = new BankAccount(owner, initialBalance);
+    this.accounts.push(account);
+    return account;
+  }
+
+  getAccountById(id) {
+    return this.accounts.find(account => account.id === id);
+  }
+}
